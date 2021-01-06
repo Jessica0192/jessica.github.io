@@ -40,3 +40,7 @@
         target: "#sideNav",
     });
 })(jQuery); // End of use strict
+
+function togglePopup(){
+    document.getElementById("pop1").classList.toggle("active");
+}
