@@ -59,7 +59,7 @@
                     </div>
                 </div>
             </section>
-            <hr class="m-0" />
+            <!-- <hr class="m-0" /> -->
             <!-- Experience-->
             <!-- <section class="resume-section" id="experience">
                 <div class="resume-section-content">
@@ -98,7 +98,7 @@
                     </div>
                 </div>
             </section> -->
-            <hr class="m-0" />
+            <hr/>
             <!-- Skills-->
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
@@ -129,7 +129,7 @@
                     </ul>
                 </div>
             </section>
-            <hr class="m-0" />
+            <hr/>
             <!-- Education-->
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
@@ -139,30 +139,107 @@
                             <h3 class="mb-0">Conestoga College</h3>
                             <div class="subheading mb-3">Software Engineering Technology</div>
                             <p>Advanced Diploma</p>
-                            <p>GPA: 3.88</p>
+                            <p>GPA: 3.88 / 4.00 </p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">September 2019 - April 2023</span></div>
                     </div>
                 </div>
             </section>
-            <hr class="m-0" />
+            <hr/>
             <!-- Projects -->
             <section class="resume-section" id="projects">
                 <div class="resume-section-content">
                     <h2 class="mb-5" style="text-align: center;">Projects</h2>              
                     <div class="popup" id="pop1">
                         <div class="overlay"></div>
-                        <div class="content">
+                        <div class="content"  style="border-radius: 10px;">
                             <div class="close-btn" onclick="togglePopup()">&times;</div>
-                            <h1>Title</h1>
+                            <br/><br/><br/>
+                            <h2 class="mb-5" style="text-align: center;">Simple Text Editor</h2>
+                            <img src="assets/img/whole_text_editor.png" style="width:719px; height:450px; border-radius: 15px;"/>
+                            <br/>
+                            <br/>
+                            <a href="https://github.com/Jessica0192/my_text_editor">Github</a>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <div class="subheading mb-3"><b>Skills</b></div> CSS, JavaScript Libraries (jQuery, JSON) and PHP as server-side technology
+                            <br/><br/>
+                            <div class="subheading mb-3"><b>Description</b></div>
+                            <p>User can save the text to the same file or a new file. In addition, user can choose a file from a list and populate a text editing area.</p>
                         </div>
                     </div>
-                    <button onclick="togglePopup()" style="border-style: none; background-color: transparent;"><img class="project-box" src="assets/img/text_editor_img.png"></button>
-                    <br><br>
-                    <h3 class="mb-0" style="margin-left: 160px;">Text Editor</h3>     
+                    <div class="popup" id="pop2">
+                        <div class="overlay"></div>
+                        <div class="content"  style="border-radius: 10px;">
+                            <div class="close-btn" onclick="togglePopup2()">&times;</div>
+                            <br/><br/><br/>
+                            <h2 class="mb-5" style="text-align: center;">10 Questions Game</h2>
+                            <img src="assets/img/wholePage10questionGame.png" style="width:700px; height:431px; border-radius: 15px;"/>
+                            <br/><br/><br/>
+                            <img src="assets/img/bigPicOfQuestions.png" style="width:700px; height:431px; border-radius: 15px;"/>
+                            <br/><br/><br/>
+                            <img src="assets/img/answers.png" style="width:700px; height:531px; border-radius: 15px;"/>
+                            <br/><br/><br/>
+                            <img src="assets/img/leaderboard.png" style="width:700px; height:431px; border-radius: 15px;"/>
+                            <br/>
+                            <br/>
+                            <a href="https://github.com/Jessica0192/10_questions_game">Github</a>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <div class="subheading mb-3"><b>Skills</b></div> UWP, C#, MYSQL <br/><br/><br/>
+                            <div class="subheading mb-3"><b>Challenges</b></div>
+                            <p>- Getting questions, answers, names of the users who've played so far and showing them on screen </p>
+                            <br/><br/>
+                            <div class="subheading mb-3"><b>Description</b></div>
+                            <p>There are 10 questions with 10 multiple choices. 5 points are allocated for each question and 20 seconds
+                                are given. You lose a point every five seconds. After solving all the problems, the leaderboard appears. </p>
+                        </div>
+                    </div>
+                    <div class="popup" id="pop3">
+                        <div class="overlay"></div>
+                        <div class="content"  style="border-radius: 10px;">
+                            <div class="close-btn" onclick="togglePopup3()">&times;</div>
+                            <br/><br/><br/>
+                            <h2 class="mb-5" style="text-align: center;">Hi-Lo Game</h2>
+                            <img src="assets/img/wholeGuessNum.png" style="width:700px; height:431px; border-radius: 15px;"/>
+                            <br/><br/><br/>
+                            <img src="assets/img/winGuessNum.png" style="width:700px; height:431px; border-radius: 15px;"/>
+                            <br/>
+                            <br/>
+                            <a href="https://github.com/Jessica0192/Hi_Lo_Game">Github</a>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <div class="subheading mb-3"><b>Skills</b></div> CSS, JavaScript with DOM, and ASP as server-side technology <br/><br/><br/>
+                            <div class="subheading mb-3"><b>Description</b></div>
+                            <p>User can set the maximum guess number and the program creates a random integer between 1 and the maximum guess number.  
+                                User can guess the number and it continues until the user’s guess is correct. </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <button onclick="togglePopup()" style="border-style: none; background-color: transparent; align-items: center;"><img class="project-box" src="assets/img/text_editor_img.png"></button>
+                            <br><br>
+                            <h3 class="mb-0" style="align-items: center;">Text Editor</h3>  
+                        </div>
+                        <div class="column">
+                            <button onclick="togglePopup2()" style="border-style: none; background-color: transparent;"><img class="project-box" src="assets/img/questions.png"></button>
+                            <br><br>
+                            <h3 class="mb-0" style="align-items: center;">10 Questions Game</h3>  
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column2">
+                            <button onclick="togglePopup3()" style="border-style: none; background-color: transparent; align-items: center;"><img class="project-box" src="assets/img/guessNum.png"></button>
+                            <br><br>
+                            <h3 class="mb-0" style="align-items: center;">Hi-Lo Game </h3> 
+                        </div>
+                    </div>
                 </div>
             </section>
-            <hr class="m-0" />
+            <hr/>
             <!-- Interests-->
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">

@@ -44,3 +44,11 @@
 function togglePopup(){
     document.getElementById("pop1").classList.toggle("active");
 }
+
+function togglePopup2(){
+    document.getElementById("pop2").classList.toggle("active");
+}
+
+function togglePopup3(){
+    document.getElementById("pop3").classList.toggle("active");
+}
